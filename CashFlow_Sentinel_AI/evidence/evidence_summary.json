@@ -1,0 +1,9 @@
+{
+  "dataset": "synthetic sample network",
+  "network_edges_examined": 3,
+  "max_hop": 3,
+  "authorization_checks_passed": 5,
+  "authorization_checks_total": 5,
+  "external_actions_executed": false,
+  "note": "Reproducible demo evidence only; not real-world validation."
+}

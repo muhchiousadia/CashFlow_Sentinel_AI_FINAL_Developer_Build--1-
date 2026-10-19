@@ -1,0 +1,31 @@
+{
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "check": "baseline_forecast_has_30_days",
+      "passed": true,
+      "details": "rows=30"
+    },
+    {
+      "check": "baseline_summary_matches_forecast",
+      "passed": true,
+      "details": "{'ending_cash': 105000.0, 'minimum_cash': 95000.0, 'shortfall_days': 0, 'first_shortfall_date': None}"
+    },
+    {
+      "check": "network_propagates_two_hops",
+      "passed": true,
+      "details": "max_hop=2; edges=3"
+    },
+    {
+      "check": "viewer_review_is_blocked",
+      "passed": true,
+      "details": "Tier 0 is denied record_review"
+    },
+    {
+      "check": "owner_review_record_created_without_execution",
+      "passed": true,
+      "details": "Demo audit record explicitly sets external_action_executed=false"
+    }
+  ],
+  "evidence_dir": "/mnt/data/work/CashFlow_Sentinel_AI/evidence"
+}

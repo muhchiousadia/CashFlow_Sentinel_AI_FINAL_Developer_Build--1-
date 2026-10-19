@@ -1,0 +1,4 @@
+from_business_id,to_business_id,amount,expected_date,delay_days,relationship_type
+BUYER_X,SME_A,80000,2026-10-15,0,customer_payment
+SME_A,SME_B,45000,2026-10-15,0,supplier_payment
+SME_B,SME_C,30000,2026-10-15,0,supplier_payment

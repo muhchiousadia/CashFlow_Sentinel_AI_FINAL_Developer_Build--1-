@@ -1,0 +1,4 @@
+from_business_id,to_business_id,payment_amount,shock_delay_days,hop,assumed_liquidity_buffer,propagation_triggered,estimated_downstream_delay_days,model_type
+BUYER_X,SME_A,80000.0,10,1,10000.0,True,10,deterministic_stress_test
+SME_A,SME_B,45000.0,10,2,10000.0,True,10,deterministic_stress_test
+SME_B,SME_C,30000.0,10,3,10000.0,True,10,deterministic_stress_test

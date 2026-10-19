@@ -1,0 +1,6 @@
+check,passed,details
+baseline_forecast_has_30_days,True,rows=30
+baseline_summary_matches_forecast,True,"{'ending_cash': 105000.0, 'minimum_cash': 95000.0, 'shortfall_days': 0, 'first_shortfall_date': None}"
+network_propagates_two_hops,True,max_hop=2; edges=3
+viewer_review_is_blocked,True,Tier 0 is denied record_review
+owner_review_record_created_without_execution,True,Demo audit record explicitly sets external_action_executed=false

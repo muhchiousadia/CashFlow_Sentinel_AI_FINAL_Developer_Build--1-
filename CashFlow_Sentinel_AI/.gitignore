@@ -1,0 +1,14 @@
+.venv/
+.venv_*/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.py[cod]
+.env
+.streamlit/secrets.toml
+data/cfs_security.sqlite3
+data/cfs_security.sqlite3-shm
+data/cfs_security.sqlite3-wal
+real_data_evaluation/
+*.log

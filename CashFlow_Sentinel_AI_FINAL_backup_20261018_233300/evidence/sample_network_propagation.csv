@@ -1,0 +1,4 @@
+from_business_id,to_business_id,amount,expected_date,scenario_date,delay_days,hop,is_seed_shock,receiver_buffer_assumption,unabsorbed_shock_estimate,propagation_triggered,assumption
+BUYER_X,SME_A,80000.0,2026-10-15,2026-10-25,10,0,True,20000.0,60000.0,True,Conservative deterministic stress; not a probability prediction
+SME_A,SME_B,45000.0,2026-10-15,2026-10-25,10,1,False,20000.0,40000.0,True,Conservative deterministic stress; not a probability prediction
+SME_B,SME_C,30000.0,2026-10-15,2026-10-25,10,2,False,20000.0,20000.0,True,Conservative deterministic stress; not a probability prediction

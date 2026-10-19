@@ -1,0 +1,16 @@
+business_id,business_name,date,direction,category,amount,counterparty_id,description
+SME_A,Harbor Wholesale,2026-10-15,inflow,customer_payment,80000,BUYER_X,Expected invoice payment
+SME_A,Harbor Wholesale,2026-10-16,outflow,supplier_bill,45000,SUPPLIER_Y,Materials bill
+SME_A,Harbor Wholesale,2026-10-17,outflow,payroll,30000,,Payroll
+SME_A,Harbor Wholesale,2026-10-20,inflow,customer_payment,35000,BUYER_Z,Expected invoice payment
+SME_A,Harbor Wholesale,2026-10-21,outflow,rent,20000,,Rent
+SME_A,Harbor Wholesale,2026-10-23,outflow,inventory,25000,SUPPLIER_Y,Optional restock
+SME_A,Harbor Wholesale,2026-10-25,inflow,customer_payment,50000,BUYER_X,Expected invoice payment
+SME_A,Harbor Wholesale,2026-10-26,outflow,supplier_bill,40000,SUPPLIER_Y,Materials bill
+SME_B,Metro Packaging,2026-10-15,inflow,customer_payment,45000,SME_A,Expected payment from Harbor Wholesale
+SME_B,Metro Packaging,2026-10-18,outflow,supplier_bill,30000,SUPPLIER_C,Packaging bill
+SME_B,Metro Packaging,2026-10-20,outflow,payroll,18000,,Payroll
+SME_B,Metro Packaging,2026-10-24,inflow,customer_payment,25000,BUYER_Q,Expected invoice payment
+SME_C,Delta Supplies,2026-10-15,inflow,customer_payment,30000,SME_B,Expected payment from Metro Packaging
+SME_C,Delta Supplies,2026-10-17,outflow,supplier_bill,22000,SUPPLIER_D,Stock payment
+SME_C,Delta Supplies,2026-10-22,outflow,payroll,12000,,Payroll

@@ -1,0 +1,6 @@
+role,permission,expected,actual,pass
+viewer,view,allow,allow,True
+viewer,review,block,block,True
+analyst,simulate,allow,allow,True
+analyst,review,block,block,True
+owner,review,allow,allow,True
